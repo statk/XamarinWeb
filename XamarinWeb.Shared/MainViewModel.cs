@@ -6,5 +6,9 @@ namespace XamarinWeb.Shared
 {
     public class MainViewModel
     {
+        public MainViewModel()
+        {
+
+        }
     }
 }

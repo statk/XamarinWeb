@@ -1,7 +1,23 @@
-﻿@page "/"
+﻿@using XamarinWeb.Shared;
+@page "/"
 
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
+<br/> <h1>Hello @GetProperty()</h1>
+
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+@code
+{
+    private MainViewModel viewModel;
+    protected override void OnInitialized()
+    {
+        viewModel = new MainViewModel();
+    }
+
+    private string GetProperty()
+    {
+        return viewModel.SomeTextProperty;
+    }
+}

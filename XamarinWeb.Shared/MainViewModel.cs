@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace XamarinWeb.Shared
+﻿namespace XamarinWeb.Shared
 {
     public class MainViewModel
     {
+        public string SomeTextProperty = "From View Model!";
         public MainViewModel()
         {
-
         }
     }
 }

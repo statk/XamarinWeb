@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinWeb.iOS", "XamarinWe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinWeb", "XamarinWeb\XamarinWeb\XamarinWeb.csproj", "{2C2DB5C0-6D51-40D5-A258-6AB45BDA8092}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinWeb.Blazor", "XamarinWeb.Blazor\XamarinWeb.Blazor.csproj", "{7FF30002-19AA-43A0-8CB6-B8A6ADD72094}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinWeb.Blazor", "XamarinWeb.Blazor\XamarinWeb.Blazor.csproj", "{7FF30002-19AA-43A0-8CB6-B8A6ADD72094}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinWeb.Shared", "XamarinWeb.Shared\XamarinWeb.Shared.csproj", "{E8D2E61E-DB0B-49C0-9FC1-7B4B851850C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinWeb.Shared", "XamarinWeb.Shared\XamarinWeb.Shared.csproj", "{E8D2E61E-DB0B-49C0-9FC1-7B4B851850C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

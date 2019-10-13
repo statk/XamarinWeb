@@ -3,8 +3,5 @@
     public class MainViewModel
     {
         public string SomeTextProperty = "From View Model!";
-        public MainViewModel()
-        {
-        }
     }
 }

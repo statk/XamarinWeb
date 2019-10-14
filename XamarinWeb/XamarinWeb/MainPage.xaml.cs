@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 using Xamarin.Forms;
+using XamarinWeb.Shared;
 
 namespace XamarinWeb
 {
@@ -13,9 +9,11 @@ namespace XamarinWeb
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        private BestViewModel viewModel;
         public MainPage()
         {
             InitializeComponent();
+            viewModel = new BestViewModel();
         }
     }
 }

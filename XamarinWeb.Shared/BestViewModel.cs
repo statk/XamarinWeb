@@ -34,11 +34,7 @@ namespace XamarinWeb.Shared
         private void IncreaseBestness()
         {
             BestCount++;
-            if ((BestCount % 2) == 0)
-                ShouldShowBestMessage = true;
-            else
-                ShouldShowBestMessage = false;
-
+            ShouldShowBestMessage = (BestCount % 2) == 0;
         }
 
         private void Set<T>(ref T awsomeCount, T value)

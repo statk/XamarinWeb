@@ -1,0 +1,35 @@
+﻿@page "/best"
+@using XamarinWeb.Shared;
+
+<body class="background-image: url('https://cdn.cellenza.com/www/2018/03/BG_Home_1920px.jpg');">
+    <div >
+        <div class="purple-overlay">
+            <h1 class="font-">Cellenza</h1>
+            <h2>Does IT better!</h2>
+            In @viewModel.BestCount Times
+
+            <br /><button class="button button2" @onclick="IncreaseBetterIndex"> Increase Better index</button>
+            <br /> <div style="@BestStyle()"> Indeed</div>
+        </div>
+    </div>
+</body>
+
+@code
+ {
+    private BestViewModel viewModel;
+
+    protected override void OnInitialized()
+    {
+        viewModel = new BestViewModel();
+    }
+
+    private void IncreaseBetterIndex()
+    {
+        viewModel.IncreaseBestCommand.Execute();
+    }
+
+    private string BestStyle()
+    {
+        return viewModel.ShouldShowBestMessage ? "display: none" : "";
+    }
+}

@@ -29,6 +29,7 @@ namespace XamarinWeb.Shared
         public BestViewModel()
         {
             IncreaseBestCommand = new SimpleCommand(IncreaseBestness);
+            ShouldShowBestMessage = false;
         }
 
         private void IncreaseBestness()
